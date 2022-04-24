@@ -14,6 +14,7 @@
             // Stream opeartions
             StreamOperationsRW streamOperationsRW = new StreamOperationsRW();
             streamOperationsRW.ReadFromStreamReader();
+            streamOperationsRW.WriteUsingStreamWriter();
         }
     }
 }
