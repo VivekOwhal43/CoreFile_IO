@@ -1,3 +1,0 @@
-Hello there!
-We are looking at sample file.
-This file contains some content that will be shown on console.

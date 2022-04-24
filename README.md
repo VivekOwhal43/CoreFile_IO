@@ -13,5 +13,18 @@ This file contains some content that will be shown on console. </br>
 
 > :floppy_disk: End of file :floppy_disk: </br>
 
+> ========== COPY FILE ===========
+
 File has been copied :ballot_box_with_check: in : </br>
 :open_file_folder: /home/vivek/bridgelabz/CoreFile_IO/Copy-MyFile.txt </br>
+
+> ========== DELETE FILE =========
+
+File has been successfully deleted:x: from below path :open_file_folder: : </br>
+:open_file_folder: /home/vivek/bridgelabz/CoreFile_IO/Copy-MyFile.txt </br>
+
+> ========== STREAM READ =========
+
+Hello there! </br>
+We are looking at sample file. </br>
+This file contains some content that will be shown on console. </br>

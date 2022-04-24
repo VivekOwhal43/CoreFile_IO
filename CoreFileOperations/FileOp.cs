@@ -33,6 +33,7 @@ namespace CoreFileOperations
         {
             if(File.Exists(path))                           // if file is present then it will be copied in the specified directory
             {
+                Console.WriteLine("========== COPY FILE ===========");
                 string copyPath=@"/home/vivek/bridgelabz/CoreFile_IO/Copy-MyFile.txt";
                 File.Copy(path,copyPath);
                 Console.WriteLine($"File has been copied in :\n {copyPath}");
@@ -40,6 +41,20 @@ namespace CoreFileOperations
             else                                        // if some problem occures then this block will be executed.
             {
                 Console.WriteLine("File Does Not Exist \n========= or ==========\n Error Occured During Copy Operation");
+            }
+        }
+        public void DeleteFile()                  //method for deleting a file
+        {
+            if(File.Exists(path))                           // if file is present then it will be deleted from the specified directory
+            {
+                Console.WriteLine("========== DELETE FILE =========");
+                string copyPath=@"/home/vivek/bridgelabz/CoreFile_IO/Copy-MyFile.txt";
+                File.Delete(copyPath);
+                Console.WriteLine($"File has been successfully deleted from below path :\n {copyPath}");
+            }
+            else                                        // if some problem occures then this block will be executed.
+            {
+                Console.WriteLine("File Does Not Exist \n========= or ==========\n Error Occured During delete Operation");
             }
         }
     }

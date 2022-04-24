@@ -9,6 +9,11 @@
             fileOp.FileExists();                    // Calling method FileExists()
             fileOp.ReadAllLines();                  // Calling method ReadAllLines()
             fileOp.CopyFile();                      // Calling method CopyFile()
+            fileOp.DeleteFile();                    // Calling method
+
+            // Stream opeartions
+            StreamOperationsRW streamOperationsRW = new StreamOperationsRW();
+            streamOperationsRW.ReadFromStreamReader();
         }
     }
 }
